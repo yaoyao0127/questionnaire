@@ -1,0 +1,58 @@
+#questionnaire{
+	text-align:center;
+	background-color:white;
+	width:900px;
+	padding:15px;
+	margin:auto;
+	font-family:"微软雅黑";
+	box-shadow:10px 10px 15px black;
+}
+h1{
+	color:orange;
+}
+hr{
+	width:80%;
+	border:orange 1px solid;
+	margin-bottom:15px;
+}
+body{
+	background-color:#cccccc;
+}
+form{
+	text-align:left;
+	width:80%;
+	margin:auto;
+}
+li{
+	margin:10px 0;
+}
+input{
+	margin:10px;
+}
+input[type="text"],input[type="tel"]{
+	width:130px;
+	height:20px;
+	font-size:16px;
+	font-family:"微软雅黑";
+	border:0px;
+	border-bottom:1px solid;
+	outline:none;/*输入框下划线效果*/
+}
+/*按钮外区域元素样式*/
+#btn{
+	text-align:center;
+}
+button{
+	width:120px;
+	height:40px;
+	background-color:orange;
+	border:0px;
+	color:white;
+	margin:10px;
+	font-size:18px;
+	font-family:"微软雅黑";
+	font-weight:bold;
+}
+button:hover{
+	background-color:#FF6835;
+}
